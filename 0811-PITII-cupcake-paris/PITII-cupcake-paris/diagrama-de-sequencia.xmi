@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+  <xmi:Documentation exporter="umbrello uml modeller 2.38.3-b9eb1f740 (Applications 23.08.3) http://umbrello.kde.org" exporterVersion="2.0.4"/>
+  <uml:Model xmi:id="m1" name="UML Model">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="folder" name="folder"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="dataType" name="dataType"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Logical_View" name="Logical View">
+      <uml:Package xmi:id="Datatypes" name="Datatypes" stereotype="folder">
+        <packagedElement xmi:type="uml:DataType" xmi:id="u8kON6STYQZpx" name="char" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u1OQzYHOcw5W9" name="int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uC8qzPwdM38wy" name="float" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uk3W9GhuQ0vt5" name="double" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uOZzZG7SX12Ef" name="bool" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uMhlgmE8eEC2v" name="string" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uWwd1kBbA2m0I" name="unsigned char" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="utf1fn0sFKUpr" name="signed char" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uwE8Hz8XyPRrm" name="unsigned int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uLpF5id4uhizs" name="signed int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uHR51nsF0PqBg" name="short int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u0SdKB7ER3NdV" name="unsigned short int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uojoApIu7Iqkj" name="signed short int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="udeCZN59rRfzR" name="long int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uZtZomMWZXZnz" name="signed long int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ulL7iuNz9CroD" name="unsigned long int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u0RYo1anHNotN" name="long double" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uZpMbmcmtJF22" name="wchar_t" stereotype="dataType"/>
+      </uml:Package>
+      <packagedElement xmi:type="uml:Class" xmi:id="ucqs7hQ467FmT" name="Página Inicial"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uNhkBocbU5HlO" name="Sobre"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uwB2jTnCJPVi5" name="Cardápio"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uV6R2YK3kEf2N" name="Encomendar pelo Whatsapp"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uXP6BAKPs5v9I" name="Fale pelo Whatsapp"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uYJyVpJUQ1B3E" name="Contato"/>
+      <xmi:Extension extender="umbrello">
+        <diagrams resolution="96">
+          <diagram xmi.id="udV2I3xeWdKrG" name="class diagram" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="800" canvaswidth="1100" isopen="1">
+            <widgets/>
+            <messages/>
+            <associations/>
+          </diagram>
+          <diagram xmi.id="uip7Ih4GytTkY" name="Contato" type="3" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="780" canvaswidth="1100" isopen="1" autoincrementsequence="0">
+            <widgets>
+              <objectwidget xmi.id="uNhkBocbU5HlO" localid="uWlQFsUWGNGCs" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="402" y="80" width="56" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="uwB2jTnCJPVi5" localid="unQvQlN6kCMW6" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="529" y="80" width="75" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="uYJyVpJUQ1B3E" localid="uUJjkRRvnjeI6" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="963" y="80" width="69" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="ucqs7hQ467FmT" localid="uVayKteEYbFEr" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="135" y="80" width="101" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="uV6R2YK3kEf2N" localid="urip2AQjr8zUp" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="646" y="80" width="200" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+            </widgets>
+            <messages>
+              <messagewidget xmi.id="uRXbXNzPO0ivM" localid="u4mWinGZlie4Z" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="428" y="319" width="50" height="20" isinstance="0" showstereotype="2" seqnum="" widgetaid="uWlQFsUWGNGCs" widgetbid="uWlQFsUWGNGCs" operation="Contar sobre a Confeitaria" sequencemessagetype="1000" textid="uJsUbqkdkSGfK">
+                <floatingtext xmi.id="uJsUbqkdkSGfK" localid="uzVQy4KCOnxcu" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="433" y="301" width="166" height="18" isinstance="0" showstereotype="2" text="Contar sobre a Confeitaria" pretext="" posttext="" role="705"/>
+              </messagewidget>
+              <messagewidget xmi.id="uHMvKPNjsnvCj" localid="ufmB3iY2K9asA" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="564" y="246" width="50" height="20" isinstance="0" showstereotype="2" seqnum="" widgetaid="unQvQlN6kCMW6" widgetbid="unQvQlN6kCMW6" operation="Escolher Cupcake" sequencemessagetype="1000" textid="ueLbS4kPX2nWI">
+                <floatingtext xmi.id="ueLbS4kPX2nWI" localid="uQ0CCymKEvGwh" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="569" y="228" width="114" height="18" isinstance="0" showstereotype="2" text="Escolher Cupcake" pretext="" posttext="" role="705"/>
+              </messagewidget>
+              <messagewidget xmi.id="uiNFEfUSIK0pd" localid="uYEVSVkkSuADh" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="744" y="239" width="50" height="20" isinstance="0" showstereotype="2" seqnum="" widgetaid="urip2AQjr8zUp" widgetbid="urip2AQjr8zUp" operation="Estabelecer contato com o cliente" sequencemessagetype="1000" textid="uiHxjoCON6fXQ">
+                <floatingtext xmi.id="uiHxjoCON6fXQ" localid="uN1qW4BL8XlpI" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="749" y="221" width="213" height="18" isinstance="0" showstereotype="2" text="Estabelecer contato com o cliente" pretext="" posttext="" role="705"/>
+              </messagewidget>
+              <messagewidget xmi.id="u2eZC97aFHBMp" localid="ufSvioMe4JBOO" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="183" y="312" width="50" height="20" isinstance="0" showstereotype="2" seqnum="" widgetaid="uVayKteEYbFEr" widgetbid="uVayKteEYbFEr" operation="Selecione as operações pelo Menu" sequencemessagetype="1000" textid="u2vcw51OWi0NQ">
+                <floatingtext xmi.id="u2vcw51OWi0NQ" localid="uOJ8JbmDNwAfQ" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="188" y="294" width="215" height="18" isinstance="0" showstereotype="2" text="Selecione as operações pelo Menu" pretext="" posttext="" role="705"/>
+              </messagewidget>
+              <messagewidget xmi.id="uUe9E2J3dLrnN" localid="u9NlrTqIjy54m" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="567" y="280" width="178" height="8" isinstance="0" showstereotype="2" seqnum="" widgetaid="unQvQlN6kCMW6" widgetbid="urip2AQjr8zUp" operation="Encomendar via Whatsapp" sequencemessagetype="1001" textid="uP7LyYU8hcupk">
+                <floatingtext xmi.id="uP7LyYU8hcupk" localid="uZMyWZF6Lg5Bu" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="572" y="262" width="169" height="18" isinstance="0" showstereotype="2" text="Encomendar via Whatsapp" pretext="" posttext="" role="704"/>
+              </messagewidget>
+            </messages>
+            <associations/>
+          </diagram>
+        </diagrams>
+      </xmi:Extension>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="Use_Case_View" name="Use Case View"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Component_View" name="Component View"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Deployment_View" name="Deployment View"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Entity_Relationship_Model" name="Entity Relationship Model"/>
+  </uml:Model>
+  <xmi:Extension extender="umbrello">
+    <docsettings viewid="uip7Ih4GytTkY" documentation="" uniqueid="uMKQgwSkl0N8J"/>
+    <listview>
+      <listitem id="Views" type="800" open="1">
+        <listitem id="Component_View" type="821" open="1"/>
+        <listitem id="Deployment_View" type="827" open="1"/>
+        <listitem id="Entity_Relationship_Model" type="836" open="1"/>
+        <listitem id="Logical_View" type="801" open="1">
+          <listitem id="uwB2jTnCJPVi5" type="813" open="1"/>
+          <listitem id="udV2I3xeWdKrG" type="807" label="class diagram" open="0"/>
+          <listitem id="uip7Ih4GytTkY" type="810" label="Contato" open="0"/>
+          <listitem id="uYJyVpJUQ1B3E" type="813" open="1"/>
+          <listitem id="Datatypes" type="830" open="0">
+            <listitem id="uOZzZG7SX12Ef" type="829" open="0"/>
+            <listitem id="uk3W9GhuQ0vt5" type="829" open="0"/>
+            <listitem id="u0RYo1anHNotN" type="829" open="0"/>
+            <listitem id="udeCZN59rRfzR" type="829" open="0"/>
+            <listitem id="uHR51nsF0PqBg" type="829" open="0"/>
+            <listitem id="utf1fn0sFKUpr" type="829" open="0"/>
+            <listitem id="uLpF5id4uhizs" type="829" open="0"/>
+            <listitem id="uZtZomMWZXZnz" type="829" open="0"/>
+            <listitem id="uojoApIu7Iqkj" type="829" open="0"/>
+            <listitem id="uMhlgmE8eEC2v" type="829" open="0"/>
+            <listitem id="uWwd1kBbA2m0I" type="829" open="0"/>
+            <listitem id="uwE8Hz8XyPRrm" type="829" open="0"/>
+            <listitem id="ulL7iuNz9CroD" type="829" open="0"/>
+            <listitem id="u0SdKB7ER3NdV" type="829" open="0"/>
+            <listitem id="uZpMbmcmtJF22" type="829" open="0"/>
+          </listitem>
+          <listitem id="uV6R2YK3kEf2N" type="813" open="1"/>
+          <listitem id="uXP6BAKPs5v9I" type="813" open="1"/>
+          <listitem id="ucqs7hQ467FmT" type="813" open="1"/>
+          <listitem id="uNhkBocbU5HlO" type="813" open="1"/>
+        </listitem>
+        <listitem id="Use_Case_View" type="802" open="1"/>
+      </listitem>
+    </listview>
+    <codegeneration>
+      <codegenerator language="C++"/>
+    </codegeneration>
+  </xmi:Extension>
+</xmi:XMI>
