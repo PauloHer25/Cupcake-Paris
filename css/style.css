@@ -154,12 +154,10 @@ h3 {
     box-sizing: border-box;
 }
 
-//* Create two unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 10px;
     height: 300px;
-    /* Should be removed. Only for demonstration */
 }
 
 .left {
@@ -259,7 +257,7 @@ header .menu-desktop nav ul li a{
 }
 
 .menu-desktop nav a:hover {
-    transform: scale(1.05);
+   color:#B636BC;
 
 }
 
