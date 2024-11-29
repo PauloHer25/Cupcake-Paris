@@ -123,6 +123,7 @@ h3 {
 .link-produto-roxo{
     color:#B636BC;
 }
+
 .nossos-fundadores {
     color: #25026A;
     font-weight: 500;
@@ -154,12 +155,10 @@ h3 {
     box-sizing: border-box;
 }
 
-//* Create two unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 10px;
     height: 300px;
-    /* Should be removed. Only for demonstration */
 }
 
 .left {
@@ -259,7 +258,7 @@ header .menu-desktop nav ul li a{
 }
 
 .menu-desktop nav a:hover {
-    transform: scale(1.05);
+   color:#B636BC;
 
 }
 
@@ -283,7 +282,16 @@ background-color: #B636BC;
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 978px) {
+    .logo-quem-somos{
+        width:200px!important;
+    }
+    .mao-na-massa{
+        width:100%;
+        margin:0;
+        padding:20px;
+        text-align: center;
+    }
     .menu {
         display: none;
         flex-direction: column;
@@ -440,6 +448,197 @@ margin-bottom:20px;
     object-fit: cover;
     padding: 8px;
 }
+.produto-abobora{
+    width: 585px;
+    max-height:400px;
+    margin: auto;
+    border-radius: 18px;
+    object-fit: cover;
+    padding: 8px;
+    margin-top: -70px;
+}
+
+.título-produto {
+   
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    padding: 8px;
+    margin-top: .5rem;
+}
+
+.preco-produto {
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+input.form-control, textarea.form-control{
+    border:0;
+    background-color: #F3EAF4;
+}
+
+@media (max-width: 744px) {
+
+   
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        background-color: #FAD1E3;
+        width: 100%;
+        text-align: center;
+        padding: 30px 30px;
+        z-index:99;
+        color:#fff;
+    }
+.carousel{
+display:none;
+}
+    .menu-hamburguer {
+        display: block;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+    header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 5px 18px;
+    float: left;
+    text-align: left;
+}
+.logo-saiba-mais{
+    margin-right:0;
+}
+.produto-abobora{
+    max-height: 300px!important;
+    margin-top:0!important;
+    width:auto!important;
+    margin-bottom:15px!important;
+}
+}
+
+.form-contato {
+margin-top:40px;
+margin-bottom:20px;
+}
+
+.navegacao {
+    color: #B636BC;
+
+}
+
+.botao-submit {
+    background-color: #25026A;
+    color: white;
+    border-radius: 7px;
+    padding: 12px 42px 12px 42px;
+    margin-left: 43%;
+    border: none;
+
+}
+
+.bi-whatsapp {
+    margin-right: 7px;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+    background-color: #cdcdcd;
+    margin-bottom:20px;
+}
+
+.carousel-item .slide-image {
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    border: none;
+    top: 0;
+    left: 100%;
+
+}
+
+.titulo-quem-somos {
+    padding-top: 5%;
+    color: #B636BC;
+}
+
+.carousel-item.active {
+    left: 0;
+    transition: all 5s ease-out;
+}
+
+.carousel-item div {
+    height: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.fundador .nome-do-fundador {
+    color: #25026A;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+}
+
+.especialista-chef {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #E4DCF4;
+    color: black;
+    text-align: center;
+}
+
+.footer .nav-footer .logo-footer {
+    padding-left: 5%;
+}
+
+.imagem-produto {
+    width: 260px;
+    height: 200px;
+    margin: auto;
+    border-radius: 18px;
+    object-fit: cover;
+    padding: 8px;
+}
+
 .produto-abobora{
     width: 585px;
     max-height:400px;
